@@ -1,16 +1,16 @@
 # Fdb version 4
-["makeindex index.idx"] 1685688375 "index.idx" "index.ind" "index" 1685688378 0
-  "index.idx" 1685688376 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+["makeindex index.idx"] 1685689297 "index.idx" "index.ind" "index" 1685689300 0
+  "index.idx" 1685689298 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
   (generated)
   "index.ilg"
   "index.ind"
   (rewritten before read)
-["xdvipdfmx"] 1685688378 "index.xdv" "index.pdf" "index" 1685688378 0
-  "index.xdv" 1685688377 81644 03771b769d0c7bcb179310368a90a8c9 "xelatex"
+["xdvipdfmx"] 1685689300 "index.xdv" "index.pdf" "index" 1685689300 0
+  "index.xdv" 1685689299 110028 c0b5961fe3e42978d7e8671f8520375a "xelatex"
   (generated)
   "index.pdf"
   (rewritten before read)
-["xelatex"] 1685688375 "index.tex" "index.xdv" "index" 1685688378 0
+["xelatex"] 1685689297 "index.tex" "index.xdv" "index" 1685689300 0
   "c:/Users/jkyle/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1679532882 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/Users/jkyle/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1679532883 916 f87d7c45f9c908e672703b83b72241a3 ""
   "c:/Users/jkyle/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1679532883 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -186,23 +186,23 @@
   "c:/Users/jkyle/AppData/Roaming/TinyTeX/texmf-dist/web2c/texmf.cnf" 1682634122 40967 d940221f8762fd5848760382d97d1226 ""
   "c:/Users/jkyle/AppData/Roaming/TinyTeX/texmf-var/web2c/xetex/xelatex.fmt" 1683522944 8717757 b0ea21ae67c8f3104f9e22f1bc45ee03 ""
   "c:/Users/jkyle/AppData/Roaming/TinyTeX/texmf.cnf" 1679532895 956 62eec9df7d23310ba78b3c2c869e65c5 ""
-  "index.aux" 1685688377 5269 58ee824ff0d07a29e7eb177b70bd0f77 "xelatex"
-  "index.ind" 1685688378 0 d41d8cd98f00b204e9800998ecf8427e "makeindex index.idx"
-  "index.lof" 1685688377 1195 e4da9280c6677461c2869b38be086a37 "xelatex"
-  "index.lot" 1685688377 220 8f403a86bcc1838cdd603ac8eaa2b5aa "xelatex"
-  "index.tex" 1685688373 12698 fd742d5081953889d4534660f2ab0b6d ""
-  "index.toc" 1685688377 777 0097febcd16901ef35b8fa436edfe3df "xelatex"
+  "index.aux" 1685689299 5442 081758428461858383d6f91bec9554d0 "xelatex"
+  "index.ind" 1685689300 0 d41d8cd98f00b204e9800998ecf8427e "makeindex index.idx"
+  "index.lof" 1685689299 1195 e4da9280c6677461c2869b38be086a37 "xelatex"
+  "index.lot" 1685689299 220 8f403a86bcc1838cdd603ac8eaa2b5aa "xelatex"
+  "index.tex" 1685689295 16032 79b636a9188df301e906421b0752fc02 ""
+  "index.toc" 1685689299 784 dfb4f5e943bc0a2eefa95b0412179cdb "xelatex"
   "krantz.cls" 1679523289 96467 cffe3f59084b6934bd99e6684bac0e30 ""
-  "ten_files/figure-pdf/fig-1-1.pdf" 1685688370 6330 f53dc9ed574a3f12b40f3b087188eef3 ""
-  "ten_files/figure-pdf/fig-10-1.pdf" 1685688372 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
-  "ten_files/figure-pdf/fig-2-1.pdf" 1685688370 6330 f53dc9ed574a3f12b40f3b087188eef3 ""
-  "ten_files/figure-pdf/fig-3-1.pdf" 1685688371 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
-  "ten_files/figure-pdf/fig-4-1.pdf" 1685688371 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
-  "ten_files/figure-pdf/fig-5-1.pdf" 1685688371 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
-  "ten_files/figure-pdf/fig-6-1.pdf" 1685688371 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
-  "ten_files/figure-pdf/fig-7-1.pdf" 1685688371 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
-  "ten_files/figure-pdf/fig-8-1.pdf" 1685688371 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
-  "ten_files/figure-pdf/fig-9-1.pdf" 1685688371 6330 cd2f933f3ab01e5a9b513b1d4bdd62e3 ""
+  "ten_files/figure-pdf/fig-1-1.pdf" 1685689292 6330 53a54eb89c0e04fae3c89b99a3339d72 ""
+  "ten_files/figure-pdf/fig-10-1.pdf" 1685689294 6330 fe95f3bcb01110028d6495a4269bb37d ""
+  "ten_files/figure-pdf/fig-2-1.pdf" 1685689292 6330 53a54eb89c0e04fae3c89b99a3339d72 ""
+  "ten_files/figure-pdf/fig-3-1.pdf" 1685689293 6330 fe95f3bcb01110028d6495a4269bb37d ""
+  "ten_files/figure-pdf/fig-4-1.pdf" 1685689293 6330 fe95f3bcb01110028d6495a4269bb37d ""
+  "ten_files/figure-pdf/fig-5-1.pdf" 1685689293 6330 fe95f3bcb01110028d6495a4269bb37d ""
+  "ten_files/figure-pdf/fig-6-1.pdf" 1685689293 6330 fe95f3bcb01110028d6495a4269bb37d ""
+  "ten_files/figure-pdf/fig-7-1.pdf" 1685689293 6330 fe95f3bcb01110028d6495a4269bb37d ""
+  "ten_files/figure-pdf/fig-8-1.pdf" 1685689293 6330 fe95f3bcb01110028d6495a4269bb37d ""
+  "ten_files/figure-pdf/fig-9-1.pdf" 1685689293 6330 fe95f3bcb01110028d6495a4269bb37d ""
   (generated)
   "index.aux"
   "index.idx"

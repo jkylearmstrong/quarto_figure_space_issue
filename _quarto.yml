@@ -1,0 +1,8 @@
+    colorlinks: true
+    toc-depth: 5
+    keep-md: false
+    keep-tex: false
+crossref:
+  chapters: true
+  lof-title: "List of Figures"
+  lot-title: "List of Tables"

@@ -1,1 +1,22 @@
-# index
+# About this R
+
+```{r}
+library('tidyverse')
+```
+
+```{r}
+paste("RStudio version", "2023.03.0+386")
+paste("quarto version", paste(quarto::quarto_version(), sep='.'))
+```
+
+```{r}
+tibble::enframe(Sys.info()) %>%
+  filter(name %in% c('sysname','release','version','machine')) %>% 
+  knitr::kable()
+```
+
+```{r}
+tibble::as_tibble(R.Version()) %>%    
+  tidyr::pivot_longer(everything()) %>% 
+  knitr::kable()
+```
