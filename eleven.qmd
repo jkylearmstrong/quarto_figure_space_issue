@@ -1,0 +1,807 @@
+# eleven
+
+```{r}
+library('tidyverse')
+```
+
+
+```{r}
+#| label: tbl-1
+#| tbl-cap: "Sample 1"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-2
+#| tbl-cap: "Sample 2"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-3
+#| tbl-cap: "Sample 3"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-4
+#| tbl-cap: "Sample 4"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-5
+#| tbl-cap: "Sample 5"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-6
+#| tbl-cap: "Sample 6"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-7
+#| tbl-cap: "Sample 7"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-8
+#| tbl-cap: "Sample 8"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-9
+#| tbl-cap: "Sample 9"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-10
+#| tbl-cap: "Sample 10"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-11
+#| tbl-cap: "Sample 11"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-12
+#| tbl-cap: "Sample 12"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-13
+#| tbl-cap: "Sample 13"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-14
+#| tbl-cap: "Sample 14"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-15
+#| tbl-cap: "Sample 15"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-16
+#| tbl-cap: "Sample 16"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-17
+#| tbl-cap: "Sample 17"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-18
+#| tbl-cap: "Sample 18"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-19
+#| tbl-cap: "Sample 19"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-20
+#| tbl-cap: "Sample 20"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-21
+#| tbl-cap: "Sample 21"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-22
+#| tbl-cap: "Sample 22"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-23
+#| tbl-cap: "Sample 23"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-24
+#| tbl-cap: "Sample 24"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-25
+#| tbl-cap: "Sample 25"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-26
+#| tbl-cap: "Sample 26"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-27
+#| tbl-cap: "Sample 27"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-28
+#| tbl-cap: "Sample 28"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-29
+#| tbl-cap: "Sample 29"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-30
+#| tbl-cap: "Sample 30"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-31
+#| tbl-cap: "Sample 31"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-32
+#| tbl-cap: "Sample 32"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-33
+#| tbl-cap: "Sample 33"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-34
+#| tbl-cap: "Sample 34"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-35
+#| tbl-cap: "Sample 35"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-36
+#| tbl-cap: "Sample 36"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-37
+#| tbl-cap: "Sample 37"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-38
+#| tbl-cap: "Sample 38"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-39
+#| tbl-cap: "Sample 39"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-40
+#| tbl-cap: "Sample 40"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-41
+#| tbl-cap: "Sample 41"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-42
+#| tbl-cap: "Sample 42"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-43
+#| tbl-cap: "Sample 43"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-44
+#| tbl-cap: "Sample 44"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-45
+#| tbl-cap: "Sample 45"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-46
+#| tbl-cap: "Sample 46"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-47
+#| tbl-cap: "Sample 47"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-48
+#| tbl-cap: "Sample 48"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-49
+#| tbl-cap: "Sample 49"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-50
+#| tbl-cap: "Sample 50"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-51
+#| tbl-cap: "Sample 51"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-52
+#| tbl-cap: "Sample 52"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-53
+#| tbl-cap: "Sample 53"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-54
+#| tbl-cap: "Sample 54"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-55
+#| tbl-cap: "Sample 55"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-56
+#| tbl-cap: "Sample 56"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-57
+#| tbl-cap: "Sample 57"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-58
+#| tbl-cap: "Sample 58"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-59
+#| tbl-cap: "Sample 59"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-60
+#| tbl-cap: "Sample 60"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-61
+#| tbl-cap: "Sample 61"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-62
+#| tbl-cap: "Sample 62"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-63
+#| tbl-cap: "Sample 63"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-64
+#| tbl-cap: "Sample 64"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-65
+#| tbl-cap: "Sample 65"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-66
+#| tbl-cap: "Sample 66"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-67
+#| tbl-cap: "Sample 67"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-68
+#| tbl-cap: "Sample 68"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-69
+#| tbl-cap: "Sample 69"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-70
+#| tbl-cap: "Sample 70"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-71
+#| tbl-cap: "Sample 71"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-72
+#| tbl-cap: "Sample 72"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-73
+#| tbl-cap: "Sample 73"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-74
+#| tbl-cap: "Sample 74"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-75
+#| tbl-cap: "Sample 75"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-76
+#| tbl-cap: "Sample 76"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-77
+#| tbl-cap: "Sample 77"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-78
+#| tbl-cap: "Sample 78"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-79
+#| tbl-cap: "Sample 79"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-80
+#| tbl-cap: "Sample 80"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-81
+#| tbl-cap: "Sample 81"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-82
+#| tbl-cap: "Sample 82"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-83
+#| tbl-cap: "Sample 83"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-84
+#| tbl-cap: "Sample 84"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-85
+#| tbl-cap: "Sample 85"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-86
+#| tbl-cap: "Sample 86"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-87
+#| tbl-cap: "Sample 87"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-88
+#| tbl-cap: "Sample 88"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-89
+#| tbl-cap: "Sample 89"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-90
+#| tbl-cap: "Sample 90"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-91
+#| tbl-cap: "Sample 91"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-92
+#| tbl-cap: "Sample 92"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-93
+#| tbl-cap: "Sample 93"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-94
+#| tbl-cap: "Sample 94"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-95
+#| tbl-cap: "Sample 95"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-96
+#| tbl-cap: "Sample 96"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-97
+#| tbl-cap: "Sample 97"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-98
+#| tbl-cap: "Sample 98"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-99
+#| tbl-cap: "Sample 99"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```
+```{r}
+#| label: tbl-100
+#| tbl-cap: "Sample 100"
+
+tibble::enframe(Sys.info()) %>% 
+  filter(name %in% c('sysname','release','version','machine')) %>%
+  knitr::kable()
+```

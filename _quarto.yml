@@ -30,6 +30,7 @@ book:
     - eight.qmd
     - nine.qmd
     - ten.qmd
+    - eleven.qmd
 
 format:
   pdf:
