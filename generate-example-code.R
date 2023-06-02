@@ -5,7 +5,7 @@ generate_code <- function(x) {
   code <- paste(
     "```{r}", "\n",
     "#| label: fig-", x, "\n",
-    "#| fig.cap: \"Sample ", x, "\"\n\n",
+    "#| fig-cap: \"Figure ", x, "\"\n\n",
     "ggplot(mtcars, aes(x = wt, y = mpg)) +\n",
     "  geom_point()", "\n",
     "```",
@@ -36,7 +36,7 @@ generate_table <- function(x) {
   code <- paste(
     "```{r}", "\n",
     "#| label: tbl-", x, "\n",
-    "#| tbl-cap: \"Sample ", x, "\"\n\n",
+    "#| tbl-cap: \"Table ", x, "\"\n\n",
     "tibble::enframe(Sys.info()) %>% \n",
     "  filter(name %in% c('sysname','release','version','machine')) %>%", "\n",
     "  knitr::kable()", "\n",
@@ -54,7 +54,7 @@ if (file.exists("eleven.qmd")) {
 
 
 con <- file("eleven.qmd", "w")
-writeLines("# eleven\n", con)
+writeLines("# Eleven\n", con)
 writeLines("```{r}\nlibrary('tidyverse')\n```\n", con)
 for (code in codes) {
   writeLines(code, con)

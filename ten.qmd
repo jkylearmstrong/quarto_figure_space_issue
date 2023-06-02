@@ -6,700 +6,700 @@ library('tidyverse')
 
 ```{r}
 #| label: fig-1
-#| fig.cap: "Sample 1"
+#| fig-cap: "Figure 1"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-2
-#| fig.cap: "Sample 2"
+#| fig-cap: "Figure 2"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-3
-#| fig.cap: "Sample 3"
+#| fig-cap: "Figure 3"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-4
-#| fig.cap: "Sample 4"
+#| fig-cap: "Figure 4"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-5
-#| fig.cap: "Sample 5"
+#| fig-cap: "Figure 5"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-6
-#| fig.cap: "Sample 6"
+#| fig-cap: "Figure 6"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-7
-#| fig.cap: "Sample 7"
+#| fig-cap: "Figure 7"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-8
-#| fig.cap: "Sample 8"
+#| fig-cap: "Figure 8"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-9
-#| fig.cap: "Sample 9"
+#| fig-cap: "Figure 9"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-10
-#| fig.cap: "Sample 10"
+#| fig-cap: "Figure 10"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-11
-#| fig.cap: "Sample 11"
+#| fig-cap: "Figure 11"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-12
-#| fig.cap: "Sample 12"
+#| fig-cap: "Figure 12"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-13
-#| fig.cap: "Sample 13"
+#| fig-cap: "Figure 13"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-14
-#| fig.cap: "Sample 14"
+#| fig-cap: "Figure 14"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-15
-#| fig.cap: "Sample 15"
+#| fig-cap: "Figure 15"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-16
-#| fig.cap: "Sample 16"
+#| fig-cap: "Figure 16"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-17
-#| fig.cap: "Sample 17"
+#| fig-cap: "Figure 17"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-18
-#| fig.cap: "Sample 18"
+#| fig-cap: "Figure 18"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-19
-#| fig.cap: "Sample 19"
+#| fig-cap: "Figure 19"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-20
-#| fig.cap: "Sample 20"
+#| fig-cap: "Figure 20"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-21
-#| fig.cap: "Sample 21"
+#| fig-cap: "Figure 21"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-22
-#| fig.cap: "Sample 22"
+#| fig-cap: "Figure 22"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-23
-#| fig.cap: "Sample 23"
+#| fig-cap: "Figure 23"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-24
-#| fig.cap: "Sample 24"
+#| fig-cap: "Figure 24"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-25
-#| fig.cap: "Sample 25"
+#| fig-cap: "Figure 25"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-26
-#| fig.cap: "Sample 26"
+#| fig-cap: "Figure 26"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-27
-#| fig.cap: "Sample 27"
+#| fig-cap: "Figure 27"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-28
-#| fig.cap: "Sample 28"
+#| fig-cap: "Figure 28"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-29
-#| fig.cap: "Sample 29"
+#| fig-cap: "Figure 29"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-30
-#| fig.cap: "Sample 30"
+#| fig-cap: "Figure 30"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-31
-#| fig.cap: "Sample 31"
+#| fig-cap: "Figure 31"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-32
-#| fig.cap: "Sample 32"
+#| fig-cap: "Figure 32"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-33
-#| fig.cap: "Sample 33"
+#| fig-cap: "Figure 33"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-34
-#| fig.cap: "Sample 34"
+#| fig-cap: "Figure 34"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-35
-#| fig.cap: "Sample 35"
+#| fig-cap: "Figure 35"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-36
-#| fig.cap: "Sample 36"
+#| fig-cap: "Figure 36"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-37
-#| fig.cap: "Sample 37"
+#| fig-cap: "Figure 37"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-38
-#| fig.cap: "Sample 38"
+#| fig-cap: "Figure 38"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-39
-#| fig.cap: "Sample 39"
+#| fig-cap: "Figure 39"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-40
-#| fig.cap: "Sample 40"
+#| fig-cap: "Figure 40"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-41
-#| fig.cap: "Sample 41"
+#| fig-cap: "Figure 41"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-42
-#| fig.cap: "Sample 42"
+#| fig-cap: "Figure 42"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-43
-#| fig.cap: "Sample 43"
+#| fig-cap: "Figure 43"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-44
-#| fig.cap: "Sample 44"
+#| fig-cap: "Figure 44"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-45
-#| fig.cap: "Sample 45"
+#| fig-cap: "Figure 45"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-46
-#| fig.cap: "Sample 46"
+#| fig-cap: "Figure 46"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-47
-#| fig.cap: "Sample 47"
+#| fig-cap: "Figure 47"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-48
-#| fig.cap: "Sample 48"
+#| fig-cap: "Figure 48"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-49
-#| fig.cap: "Sample 49"
+#| fig-cap: "Figure 49"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-50
-#| fig.cap: "Sample 50"
+#| fig-cap: "Figure 50"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-51
-#| fig.cap: "Sample 51"
+#| fig-cap: "Figure 51"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-52
-#| fig.cap: "Sample 52"
+#| fig-cap: "Figure 52"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-53
-#| fig.cap: "Sample 53"
+#| fig-cap: "Figure 53"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-54
-#| fig.cap: "Sample 54"
+#| fig-cap: "Figure 54"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-55
-#| fig.cap: "Sample 55"
+#| fig-cap: "Figure 55"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-56
-#| fig.cap: "Sample 56"
+#| fig-cap: "Figure 56"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-57
-#| fig.cap: "Sample 57"
+#| fig-cap: "Figure 57"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-58
-#| fig.cap: "Sample 58"
+#| fig-cap: "Figure 58"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-59
-#| fig.cap: "Sample 59"
+#| fig-cap: "Figure 59"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-60
-#| fig.cap: "Sample 60"
+#| fig-cap: "Figure 60"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-61
-#| fig.cap: "Sample 61"
+#| fig-cap: "Figure 61"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-62
-#| fig.cap: "Sample 62"
+#| fig-cap: "Figure 62"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-63
-#| fig.cap: "Sample 63"
+#| fig-cap: "Figure 63"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-64
-#| fig.cap: "Sample 64"
+#| fig-cap: "Figure 64"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-65
-#| fig.cap: "Sample 65"
+#| fig-cap: "Figure 65"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-66
-#| fig.cap: "Sample 66"
+#| fig-cap: "Figure 66"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-67
-#| fig.cap: "Sample 67"
+#| fig-cap: "Figure 67"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-68
-#| fig.cap: "Sample 68"
+#| fig-cap: "Figure 68"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-69
-#| fig.cap: "Sample 69"
+#| fig-cap: "Figure 69"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-70
-#| fig.cap: "Sample 70"
+#| fig-cap: "Figure 70"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-71
-#| fig.cap: "Sample 71"
+#| fig-cap: "Figure 71"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-72
-#| fig.cap: "Sample 72"
+#| fig-cap: "Figure 72"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-73
-#| fig.cap: "Sample 73"
+#| fig-cap: "Figure 73"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-74
-#| fig.cap: "Sample 74"
+#| fig-cap: "Figure 74"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-75
-#| fig.cap: "Sample 75"
+#| fig-cap: "Figure 75"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-76
-#| fig.cap: "Sample 76"
+#| fig-cap: "Figure 76"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-77
-#| fig.cap: "Sample 77"
+#| fig-cap: "Figure 77"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-78
-#| fig.cap: "Sample 78"
+#| fig-cap: "Figure 78"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-79
-#| fig.cap: "Sample 79"
+#| fig-cap: "Figure 79"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-80
-#| fig.cap: "Sample 80"
+#| fig-cap: "Figure 80"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-81
-#| fig.cap: "Sample 81"
+#| fig-cap: "Figure 81"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-82
-#| fig.cap: "Sample 82"
+#| fig-cap: "Figure 82"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-83
-#| fig.cap: "Sample 83"
+#| fig-cap: "Figure 83"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-84
-#| fig.cap: "Sample 84"
+#| fig-cap: "Figure 84"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-85
-#| fig.cap: "Sample 85"
+#| fig-cap: "Figure 85"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-86
-#| fig.cap: "Sample 86"
+#| fig-cap: "Figure 86"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-87
-#| fig.cap: "Sample 87"
+#| fig-cap: "Figure 87"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-88
-#| fig.cap: "Sample 88"
+#| fig-cap: "Figure 88"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-89
-#| fig.cap: "Sample 89"
+#| fig-cap: "Figure 89"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-90
-#| fig.cap: "Sample 90"
+#| fig-cap: "Figure 90"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-91
-#| fig.cap: "Sample 91"
+#| fig-cap: "Figure 91"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-92
-#| fig.cap: "Sample 92"
+#| fig-cap: "Figure 92"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-93
-#| fig.cap: "Sample 93"
+#| fig-cap: "Figure 93"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-94
-#| fig.cap: "Sample 94"
+#| fig-cap: "Figure 94"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-95
-#| fig.cap: "Sample 95"
+#| fig-cap: "Figure 95"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-96
-#| fig.cap: "Sample 96"
+#| fig-cap: "Figure 96"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-97
-#| fig.cap: "Sample 97"
+#| fig-cap: "Figure 97"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-98
-#| fig.cap: "Sample 98"
+#| fig-cap: "Figure 98"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-99
-#| fig.cap: "Sample 99"
+#| fig-cap: "Figure 99"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
 ```{r}
 #| label: fig-100
-#| fig.cap: "Sample 100"
+#| fig-cap: "Figure 100"
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()

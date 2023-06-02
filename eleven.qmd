@@ -1,4 +1,4 @@
-# eleven
+# Eleven
 
 ```{r}
 library('tidyverse')
@@ -6,7 +6,7 @@ library('tidyverse')
 
 ```{r}
 #| label: tbl-1
-#| tbl-cap: "Sample 1"
+#| tbl-cap: "Table 1"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -14,7 +14,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-2
-#| tbl-cap: "Sample 2"
+#| tbl-cap: "Table 2"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -22,7 +22,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-3
-#| tbl-cap: "Sample 3"
+#| tbl-cap: "Table 3"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -30,7 +30,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-4
-#| tbl-cap: "Sample 4"
+#| tbl-cap: "Table 4"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -38,7 +38,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-5
-#| tbl-cap: "Sample 5"
+#| tbl-cap: "Table 5"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -46,7 +46,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-6
-#| tbl-cap: "Sample 6"
+#| tbl-cap: "Table 6"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -54,7 +54,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-7
-#| tbl-cap: "Sample 7"
+#| tbl-cap: "Table 7"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -62,7 +62,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-8
-#| tbl-cap: "Sample 8"
+#| tbl-cap: "Table 8"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -70,7 +70,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-9
-#| tbl-cap: "Sample 9"
+#| tbl-cap: "Table 9"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -78,7 +78,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-10
-#| tbl-cap: "Sample 10"
+#| tbl-cap: "Table 10"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -86,7 +86,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-11
-#| tbl-cap: "Sample 11"
+#| tbl-cap: "Table 11"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -94,7 +94,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-12
-#| tbl-cap: "Sample 12"
+#| tbl-cap: "Table 12"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -102,7 +102,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-13
-#| tbl-cap: "Sample 13"
+#| tbl-cap: "Table 13"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -110,7 +110,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-14
-#| tbl-cap: "Sample 14"
+#| tbl-cap: "Table 14"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -118,7 +118,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-15
-#| tbl-cap: "Sample 15"
+#| tbl-cap: "Table 15"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -126,7 +126,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-16
-#| tbl-cap: "Sample 16"
+#| tbl-cap: "Table 16"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -134,7 +134,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-17
-#| tbl-cap: "Sample 17"
+#| tbl-cap: "Table 17"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -142,7 +142,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-18
-#| tbl-cap: "Sample 18"
+#| tbl-cap: "Table 18"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -150,7 +150,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-19
-#| tbl-cap: "Sample 19"
+#| tbl-cap: "Table 19"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -158,7 +158,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-20
-#| tbl-cap: "Sample 20"
+#| tbl-cap: "Table 20"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -166,7 +166,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-21
-#| tbl-cap: "Sample 21"
+#| tbl-cap: "Table 21"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -174,7 +174,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-22
-#| tbl-cap: "Sample 22"
+#| tbl-cap: "Table 22"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -182,7 +182,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-23
-#| tbl-cap: "Sample 23"
+#| tbl-cap: "Table 23"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -190,7 +190,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-24
-#| tbl-cap: "Sample 24"
+#| tbl-cap: "Table 24"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -198,7 +198,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-25
-#| tbl-cap: "Sample 25"
+#| tbl-cap: "Table 25"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -206,7 +206,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-26
-#| tbl-cap: "Sample 26"
+#| tbl-cap: "Table 26"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -214,7 +214,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-27
-#| tbl-cap: "Sample 27"
+#| tbl-cap: "Table 27"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -222,7 +222,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-28
-#| tbl-cap: "Sample 28"
+#| tbl-cap: "Table 28"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -230,7 +230,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-29
-#| tbl-cap: "Sample 29"
+#| tbl-cap: "Table 29"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -238,7 +238,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-30
-#| tbl-cap: "Sample 30"
+#| tbl-cap: "Table 30"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -246,7 +246,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-31
-#| tbl-cap: "Sample 31"
+#| tbl-cap: "Table 31"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -254,7 +254,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-32
-#| tbl-cap: "Sample 32"
+#| tbl-cap: "Table 32"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -262,7 +262,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-33
-#| tbl-cap: "Sample 33"
+#| tbl-cap: "Table 33"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -270,7 +270,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-34
-#| tbl-cap: "Sample 34"
+#| tbl-cap: "Table 34"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -278,7 +278,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-35
-#| tbl-cap: "Sample 35"
+#| tbl-cap: "Table 35"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -286,7 +286,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-36
-#| tbl-cap: "Sample 36"
+#| tbl-cap: "Table 36"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -294,7 +294,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-37
-#| tbl-cap: "Sample 37"
+#| tbl-cap: "Table 37"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -302,7 +302,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-38
-#| tbl-cap: "Sample 38"
+#| tbl-cap: "Table 38"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -310,7 +310,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-39
-#| tbl-cap: "Sample 39"
+#| tbl-cap: "Table 39"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -318,7 +318,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-40
-#| tbl-cap: "Sample 40"
+#| tbl-cap: "Table 40"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -326,7 +326,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-41
-#| tbl-cap: "Sample 41"
+#| tbl-cap: "Table 41"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -334,7 +334,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-42
-#| tbl-cap: "Sample 42"
+#| tbl-cap: "Table 42"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -342,7 +342,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-43
-#| tbl-cap: "Sample 43"
+#| tbl-cap: "Table 43"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -350,7 +350,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-44
-#| tbl-cap: "Sample 44"
+#| tbl-cap: "Table 44"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -358,7 +358,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-45
-#| tbl-cap: "Sample 45"
+#| tbl-cap: "Table 45"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -366,7 +366,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-46
-#| tbl-cap: "Sample 46"
+#| tbl-cap: "Table 46"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -374,7 +374,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-47
-#| tbl-cap: "Sample 47"
+#| tbl-cap: "Table 47"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -382,7 +382,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-48
-#| tbl-cap: "Sample 48"
+#| tbl-cap: "Table 48"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -390,7 +390,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-49
-#| tbl-cap: "Sample 49"
+#| tbl-cap: "Table 49"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -398,7 +398,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-50
-#| tbl-cap: "Sample 50"
+#| tbl-cap: "Table 50"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -406,7 +406,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-51
-#| tbl-cap: "Sample 51"
+#| tbl-cap: "Table 51"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -414,7 +414,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-52
-#| tbl-cap: "Sample 52"
+#| tbl-cap: "Table 52"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -422,7 +422,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-53
-#| tbl-cap: "Sample 53"
+#| tbl-cap: "Table 53"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -430,7 +430,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-54
-#| tbl-cap: "Sample 54"
+#| tbl-cap: "Table 54"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -438,7 +438,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-55
-#| tbl-cap: "Sample 55"
+#| tbl-cap: "Table 55"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -446,7 +446,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-56
-#| tbl-cap: "Sample 56"
+#| tbl-cap: "Table 56"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -454,7 +454,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-57
-#| tbl-cap: "Sample 57"
+#| tbl-cap: "Table 57"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -462,7 +462,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-58
-#| tbl-cap: "Sample 58"
+#| tbl-cap: "Table 58"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -470,7 +470,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-59
-#| tbl-cap: "Sample 59"
+#| tbl-cap: "Table 59"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -478,7 +478,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-60
-#| tbl-cap: "Sample 60"
+#| tbl-cap: "Table 60"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -486,7 +486,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-61
-#| tbl-cap: "Sample 61"
+#| tbl-cap: "Table 61"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -494,7 +494,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-62
-#| tbl-cap: "Sample 62"
+#| tbl-cap: "Table 62"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -502,7 +502,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-63
-#| tbl-cap: "Sample 63"
+#| tbl-cap: "Table 63"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -510,7 +510,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-64
-#| tbl-cap: "Sample 64"
+#| tbl-cap: "Table 64"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -518,7 +518,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-65
-#| tbl-cap: "Sample 65"
+#| tbl-cap: "Table 65"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -526,7 +526,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-66
-#| tbl-cap: "Sample 66"
+#| tbl-cap: "Table 66"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -534,7 +534,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-67
-#| tbl-cap: "Sample 67"
+#| tbl-cap: "Table 67"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -542,7 +542,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-68
-#| tbl-cap: "Sample 68"
+#| tbl-cap: "Table 68"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -550,7 +550,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-69
-#| tbl-cap: "Sample 69"
+#| tbl-cap: "Table 69"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -558,7 +558,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-70
-#| tbl-cap: "Sample 70"
+#| tbl-cap: "Table 70"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -566,7 +566,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-71
-#| tbl-cap: "Sample 71"
+#| tbl-cap: "Table 71"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -574,7 +574,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-72
-#| tbl-cap: "Sample 72"
+#| tbl-cap: "Table 72"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -582,7 +582,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-73
-#| tbl-cap: "Sample 73"
+#| tbl-cap: "Table 73"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -590,7 +590,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-74
-#| tbl-cap: "Sample 74"
+#| tbl-cap: "Table 74"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -598,7 +598,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-75
-#| tbl-cap: "Sample 75"
+#| tbl-cap: "Table 75"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -606,7 +606,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-76
-#| tbl-cap: "Sample 76"
+#| tbl-cap: "Table 76"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -614,7 +614,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-77
-#| tbl-cap: "Sample 77"
+#| tbl-cap: "Table 77"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -622,7 +622,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-78
-#| tbl-cap: "Sample 78"
+#| tbl-cap: "Table 78"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -630,7 +630,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-79
-#| tbl-cap: "Sample 79"
+#| tbl-cap: "Table 79"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -638,7 +638,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-80
-#| tbl-cap: "Sample 80"
+#| tbl-cap: "Table 80"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -646,7 +646,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-81
-#| tbl-cap: "Sample 81"
+#| tbl-cap: "Table 81"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -654,7 +654,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-82
-#| tbl-cap: "Sample 82"
+#| tbl-cap: "Table 82"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -662,7 +662,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-83
-#| tbl-cap: "Sample 83"
+#| tbl-cap: "Table 83"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -670,7 +670,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-84
-#| tbl-cap: "Sample 84"
+#| tbl-cap: "Table 84"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -678,7 +678,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-85
-#| tbl-cap: "Sample 85"
+#| tbl-cap: "Table 85"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -686,7 +686,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-86
-#| tbl-cap: "Sample 86"
+#| tbl-cap: "Table 86"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -694,7 +694,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-87
-#| tbl-cap: "Sample 87"
+#| tbl-cap: "Table 87"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -702,7 +702,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-88
-#| tbl-cap: "Sample 88"
+#| tbl-cap: "Table 88"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -710,7 +710,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-89
-#| tbl-cap: "Sample 89"
+#| tbl-cap: "Table 89"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -718,7 +718,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-90
-#| tbl-cap: "Sample 90"
+#| tbl-cap: "Table 90"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -726,7 +726,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-91
-#| tbl-cap: "Sample 91"
+#| tbl-cap: "Table 91"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -734,7 +734,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-92
-#| tbl-cap: "Sample 92"
+#| tbl-cap: "Table 92"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -742,7 +742,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-93
-#| tbl-cap: "Sample 93"
+#| tbl-cap: "Table 93"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -750,7 +750,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-94
-#| tbl-cap: "Sample 94"
+#| tbl-cap: "Table 94"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -758,7 +758,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-95
-#| tbl-cap: "Sample 95"
+#| tbl-cap: "Table 95"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -766,7 +766,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-96
-#| tbl-cap: "Sample 96"
+#| tbl-cap: "Table 96"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -774,7 +774,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-97
-#| tbl-cap: "Sample 97"
+#| tbl-cap: "Table 97"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -782,7 +782,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-98
-#| tbl-cap: "Sample 98"
+#| tbl-cap: "Table 98"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -790,7 +790,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-99
-#| tbl-cap: "Sample 99"
+#| tbl-cap: "Table 99"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
@@ -798,7 +798,7 @@ tibble::enframe(Sys.info()) %>%
 ```
 ```{r}
 #| label: tbl-100
-#| tbl-cap: "Sample 100"
+#| tbl-cap: "Table 100"
 
 tibble::enframe(Sys.info()) %>% 
   filter(name %in% c('sysname','release','version','machine')) %>%
