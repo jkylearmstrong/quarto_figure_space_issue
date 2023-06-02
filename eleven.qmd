@@ -4,7 +4,6 @@
 library('tidyverse')
 ```
 
-
 ```{r}
 #| label: tbl-1
 #| tbl-cap: "Sample 1"

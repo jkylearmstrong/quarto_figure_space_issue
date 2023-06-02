@@ -1,15 +1,16 @@
 # Ten
 
 ```{r}
+library('tidyverse')
+```
+
+```{r}
 #| label: fig-1
 #| fig.cap: "Sample 1"
-
-library(ggplot2)
 
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-2
 #| fig.cap: "Sample 2"
@@ -17,16 +18,13 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-3
 #| fig.cap: "Sample 3"
 
-
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-4
 #| fig.cap: "Sample 4"
@@ -34,7 +32,6 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-5
 #| fig.cap: "Sample 5"
@@ -42,7 +39,6 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-6
 #| fig.cap: "Sample 6"
@@ -50,7 +46,6 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-7
 #| fig.cap: "Sample 7"
@@ -58,7 +53,6 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-8
 #| fig.cap: "Sample 8"
@@ -66,7 +60,6 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-9
 #| fig.cap: "Sample 9"
@@ -74,16 +67,13 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-10
 #| fig.cap: "Sample 10"
 
-
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point()
 ```
-
 ```{r}
 #| label: fig-11
 #| fig.cap: "Sample 11"

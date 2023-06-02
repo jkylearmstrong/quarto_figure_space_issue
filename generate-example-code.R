@@ -14,12 +14,15 @@ generate_code <- function(x) {
   return(code)
 }
 
-codes <- map(11:100, generate_code)
+codes <- map(1:100, generate_code)
 
-# Example usage
+if (file.exists("ten.qmd")) {
+  file.remove("ten.qmd")
+}
 
-# Write codes to file
-con <- file("output.txt", "w")
+con <- file("ten.qmd", "w")
+writeLines("# Ten\n", con)
+writeLines("```{r}\nlibrary('tidyverse')\n```\n", con)
 for (code in codes) {
   writeLines(code, con)
 }
@@ -51,6 +54,8 @@ if (file.exists("eleven.qmd")) {
 
 
 con <- file("eleven.qmd", "w")
+writeLines("# eleven\n", con)
+writeLines("```{r}\nlibrary('tidyverse')\n```\n", con)
 for (code in codes) {
   writeLines(code, con)
 }
