@@ -1,3 +1,64 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "sample book"
+  author: "me"
+  date: today
+  date-format: long
+  reader-mode: true
+
+  page-footer:
+    left: |
+      sample book
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+
+  cover-image: cover.png
+  favicon: cover.png
+  
+  chapters:
+    - index.qmd
+    - one.qmd
+    - two.qmd
+    - three.qmd
+    - four.qmd
+    - five.qmd
+    - six.qmd
+    - seven.qmd
+    - eight.qmd
+    - nine.qmd
+    - ten.qmd
+
+format:
+  pdf:
+    pdf-engine: latexmk
+    pdf-engine-opt: -xelatex
+    documentclass: krantz
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+    include-before-body:
+      text: |
+        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+        showspaces = false,
+        showtabs = false,
+        breaksymbolleft={},
+        breaklines
+        % Note: setting commandchars=\\\{\} here will cause an error 
+        }
+    include-after-body: 
+      text: |
+        \printindex
+    lof: true
+    lot: true
+    prefer-html: true
+    toc: true
+    number-sections: true
     colorlinks: true
     toc-depth: 5
     keep-md: false
